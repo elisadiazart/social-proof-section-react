@@ -1,0 +1,10 @@
+.text {
+	font-family: 'League Spartan', sans-serif;
+	text-align: center;
+	width: 60%;
+	line-height: 25px;
+	margin: 4rem auto 1rem auto;
+	color: #927b91;
+	font-size: 19px;
+	font-weight: 500;
+}

@@ -1,0 +1,12 @@
+.rating {
+	background-color: #F7F2F7;
+	padding: 1rem 9rem;
+	margin: 0rem 1rem;
+	justify-content: center;
+
+	&__stars-container {
+		display: flex;
+		gap: .7rem;
+		margin: auto;
+	}
+}

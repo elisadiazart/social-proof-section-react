@@ -1,5 +1,13 @@
+import Rating from "./components/rating/Rating";
+import Text from "./components/text/Text";
+import Title from "./components/title/Title";
+
 const App = () => {
-	return <h1>Núcleo de la aplicación</h1>;
+	return <header>
+		<Title/>
+		<Text/>
+		<Rating/>
+		</header> ;
 };
 
 export default App;
