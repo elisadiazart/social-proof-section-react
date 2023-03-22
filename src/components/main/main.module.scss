@@ -5,8 +5,10 @@
     background-position:bottom 50%;
     @media screen and (min-width: 1024px) {
         background-image: url(/public/images/bg-pattern-bottom-desktop.svg);
+        background-position: bottom;
         display: flex;
         gap: 2rem;
+        height: 100%;
         padding: 0rem 6rem 6rem 6rem;
     }
 }
