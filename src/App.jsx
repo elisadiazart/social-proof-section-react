@@ -1,13 +1,11 @@
-import Rating from "./components/rating/Rating";
-import Text from "./components/text/Text";
-import Title from "./components/title/Title";
+import Header from "./components/header/Header";
+import Main from "./components/main/Main";
 
 const App = () => {
-	return <header>
-		<Title/>
-		<Text/>
-		<Rating/>
-		</header> ;
+	return <>
+	<Header/>
+	<Main/>
+	</>
 };
 
 export default App;

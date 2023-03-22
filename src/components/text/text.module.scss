@@ -7,4 +7,10 @@
 	color: #927b91;
 	font-size: 19px;
 	font-weight: 500;
+
+	@media screen and (min-width: 1024px) {
+		text-align: left;
+		width: 500px;
+		padding-right: 4rem;
+	}
 }

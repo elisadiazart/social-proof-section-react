@@ -1,12 +1,29 @@
 .rating {
 	background-color: #F7F2F7;
-	padding: 1rem 9rem;
-	margin: 0rem 1rem;
+	padding: 1rem 6rem;
+	margin: 0rem 1.5rem;
 	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	border-radius: 8px;
+	margin-bottom: 1rem;
+	@media screen and (min-width: 1024px) {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
 
 	&__stars-container {
 		display: flex;
 		gap: .7rem;
 		margin: auto;
+	}
+	&__text{
+		font-family: 'League Spartan', sans-serif;
+		font-size: 17px;
+		font-weight: 700;
+		color: #512051;
+		text-align: center;
 	}
 }

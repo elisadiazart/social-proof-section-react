@@ -1,0 +1,52 @@
+.review{
+    background-color: #512051;
+    padding: 2rem;
+    border-radius: 8px;
+    margin: 0 1.5rem;
+    margin-bottom: 1rem;
+    @media screen and (min-width: 1024px) {
+        margin: 0;
+        padding: 3rem;
+    }
+
+    &__icon{
+        width: 60px;
+        border-radius: 50%;
+    }
+
+    &__user{
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    &__user-text{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+
+    &__name{
+        font-family: 'League Spartan', sans-serif;
+        font-size: 17px;
+        font-weight: 700;
+        color: white;
+    }
+
+    &__verified{
+        font-family: 'League Spartan', sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        color: #EE69A4;
+    }
+
+
+    &__text{
+        font-family: 'League Spartan', sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        color: white;
+        line-height: 22px;
+    }
+}

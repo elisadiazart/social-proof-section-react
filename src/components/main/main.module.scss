@@ -1,0 +1,12 @@
+.main{
+    padding-bottom: 6rem;
+    background-image: url(/public/images/bg-pattern-bottom-mobile.svg);
+    background-repeat: no-repeat;
+    background-position:bottom 50%;
+    @media screen and (min-width: 1024px) {
+        background-image: url(/public/images/bg-pattern-bottom-desktop.svg);
+        display: flex;
+        gap: 2rem;
+        padding: 0rem 6rem 6rem 6rem;
+    }
+}
